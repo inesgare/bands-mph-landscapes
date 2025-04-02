@@ -81,7 +81,6 @@ def plot_confidence_band_multi(landscapes, box, type='standard', k=1, alpha = 0.
     #ax.set_zlabel('Landscape value')
 
     ax.view_init(elev=30, azim=30) 
-    plt.show()
 
 def plot_confidence_band_single(landscapes, sample_range, type='standard', k=1, alpha = 0.05, B=1000, ax=None):
     if type=='standard':
