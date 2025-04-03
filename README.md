@@ -1,6 +1,6 @@
 # Confidence Bands for Multiparameter Persistence Landscapes
 
-This repository contains code to compute **confidence bands** using *standard bootstrap* and *multiplier bootstrap* for **multiparameter persistence landscapes**. The repository is a companion for the manuscript ["Confidence Bands for Multiparameter Persistence Landscapes"](link), and also contains the code to reproduce the experiments therein. 
+This repository contains code to compute **confidence bands** using *standard bootstrap* and *multiplier bootstrap* for **multiparameter persistence landscapes**. The repository is a companion for the manuscript ["Confidence Bands for Multiparameter Persistence Landscapes"](https://arxiv.org/abs/2504.01113), and also contains the code to reproduce the experiments therein. 
 
 ## Structure of the code
 
@@ -22,5 +22,3 @@ The following libraries are necessary to run the code in this repository:
 - [math](https://docs.python.org/3/library/math.html): for a rounding function to resample with replacement in the bootstrap functions
 - [ripser](https://ripser.scikit-tda.org/en/latest/): to compute PH of the Vietoris--Rips filtration
 - [multipers](https://davidlapous.github.io/multipers/): for the 2-parameter PH computations
-
-## Citation
